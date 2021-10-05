@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginHandler</servlet-name>
+  	<display-name>LoginHandler</display-name>
+  	<description></description>
+  	<servlet-class>java_servlets.LoginHandler</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DashboardHandler</servlet-name>
+  	<display-name>DashboardHandler</display-name>
+  	<description></description>
+  	<servlet-class>java_servlets.DashboardHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginHandler</servlet-name>
+  	<url-pattern>/loginHandler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DashboardHandler</servlet-name>
+  	<url-pattern>/dashboardHandler</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #54d6f0;
+}
+
+#main_div {
+	max-width: 300px;
+	margin: 20% 20px 40px 40%;
+}
+
+#main_div form input {
+	width: 250px;
+	height: 30px;
+	margin: 5px 10px 20px 10px;
+	border: none;
+	border-radius: 2px;
+}
+
+#main_div form #login{
+	width: 250px;
+	heigth: 35px;
+	margin: 0px 10px 20px 10px;
+	background: #1cb807;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+}
+
+#main_div label{
+	margin-left: 10px;
+}
+
+#das {
+	max-width: 300px;
+	margin: 20% 20px 40px 40%;
+}
+
+#das form h2{
+	margin-left: 10px;
+}
+
+#das form #logout {
+	width: 250px;
+	heigth: 35px;
+	margin: 0px 10px 20px 10px;
+	background: #d10f0f;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+}
